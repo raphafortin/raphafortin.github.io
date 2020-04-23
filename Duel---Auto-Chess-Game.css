@@ -1,0 +1,18 @@
+.u-section-1 {background-image: url("images/site_BG.png")}
+.u-section-1 .u-sheet-1 {min-height: 100vh}
+.u-section-1 .u-text-1 {font-size: 7.5rem; font-weight: 700; font-family: "Carter One"; margin: 249px 646px 0 13px}
+.u-section-1 .u-text-2 {margin: 0 646px 0 22px}
+.u-section-1 .u-btn-1 {background-image: none; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; border-style: none; font-size: 0.625rem; margin: 22px auto 60px 22px} 
+
+@media (max-width: 1199px){ .u-section-1 .u-text-1 {margin-right: 459px; margin-left: 0}
+.u-section-1 .u-text-2 {margin-right: 468px; margin-left: 0}
+.u-section-1 .u-btn-1 {margin-left: 0} }
+
+@media (max-width: 991px){ .u-section-1 .u-text-1 {margin-right: 239px}
+.u-section-1 .u-text-2 {margin-right: 248px} }
+
+@media (max-width: 767px){ .u-section-1 .u-text-1 {font-size: 4.5rem; margin-right: 59px}
+.u-section-1 .u-text-2 {margin-right: 68px} }
+
+@media (max-width: 575px){ .u-section-1 .u-text-1 {margin-right: 0}
+.u-section-1 .u-text-2 {margin-right: 0} }
