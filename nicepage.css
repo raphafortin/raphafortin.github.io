@@ -26935,12 +26935,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
  .u-footer {background-image: none}
-.u-footer .u-sheet-1 {min-height: 54px}
-.u-footer .u-social-icons-1 {height: 32px; min-height: 16px; width: 158px; min-width: 94px; white-space: nowrap; margin: 11px auto}
+.u-footer .u-sheet-1 {min-height: 155px}
+.u-footer .u-social-icons-1 {height: 32px; min-height: 16px; width: 116px; min-width: 68px; white-space: nowrap; margin: 60px auto}
 .u-footer .u-icon-1 {height: 100%}
 .u-footer .u-icon-2 {height: 100%}
-.u-footer .u-icon-3 {height: 100%}
-.u-footer .u-icon-4 {height: 100%} 
+.u-footer .u-icon-3 {height: 100%} 
 @media (max-width: 1199px){ .u-footer .u-sheet-1 {min-height: 99px} }
 @media (max-width: 991px){ .u-footer .u-sheet-1 {min-height: 76px} }
 @media (max-width: 767px){ .u-footer .u-sheet-1 {min-height: 57px} }
