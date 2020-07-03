@@ -1,37 +1,31 @@
-.u-section-1 {background-image: url("images/Banner1.png"); background-position: 0% 50%}
+.u-section-1 {background-image: url("images/Barista_Backdrop_Banner1.png")}
 .u-section-1 .u-sheet-1 {min-height: 100vh}
-.u-section-1 .u-image-1 {width: 570px; height: 334px; margin: 91px auto 0}
-.u-section-1 .u-text-1 {font-size: 1.25rem; margin: -19px auto 0}
-.u-section-1 .u-btn-1 {text-transform: uppercase; letter-spacing: 2px; border-style: none; font-size: 0.9375rem; animation-duration: 1000ms; font-weight: 700; margin: 7px auto 0}
-.u-section-1 .u-social-icons-1 {height: 32px; min-height: 16px; width: 116px; min-width: 68px; white-space: nowrap; margin: 20px auto 0}
+.u-section-1 .u-image-1 {width: 489px; height: 286px; margin: 60px auto 0}
+.u-section-1 .u-text-1 {font-size: 1.25rem; margin: 20px auto 0}
+.u-section-1 .u-btn-1 {text-transform: uppercase; letter-spacing: 2px; border-style: none; font-size: 0.9375rem; animation-duration: 1000ms; font-weight: 700; align-self: center; margin: 20px auto 0}
+.u-section-1 .u-social-icons-1 {height: 32px; min-height: 16px; width: 116px; min-width: 68px; white-space: nowrap; margin: 19px auto 0}
 .u-section-1 .u-icon-1 {height: 100%}
 .u-section-1 .u-icon-2 {height: 100%}
 .u-section-1 .u-icon-3 {height: 100%}
 .u-section-1 .u-video-1 {width: 525px; height: 295px; box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4); margin: 38px auto 60px} 
 
-@media (max-width: 1199px){ .u-section-1 .u-image-1 {margin-top: 64px}
-.u-section-1 .u-text-1 {width: auto; margin-top: -32px; margin-right: 235px}
-.u-section-1 .u-btn-1 {margin-top: 14px; padding: 10px 57px 10px 56px}
-.u-section-1 .u-social-icons-1 {margin-top: 28px}
-.u-section-1 .u-video-1 {margin-top: 46px; margin-left: 207px} }
+@media (max-width: 1199px){ .u-section-1 .u-sheet-1 {min-height: 988px}
+.u-section-1 .u-btn-1 {padding: 10px 57px 10px 56px} }
 
 @media (max-width: 991px){ .u-section-1 .u-sheet-1 {min-height: 972px}
-.u-section-1 .u-image-1 {margin-top: 62px}
-.u-section-1 .u-text-1 {margin-top: -15px; margin-right: 121px}
-.u-section-1 .u-btn-1 {margin-top: 25px}
-.u-section-1 .u-social-icons-1 {margin-top: 23px}
-.u-section-1 .u-video-1 {margin-top: 60px; margin-left: auto} }
+.u-section-1 .u-image-1 {width: 400px; height: 234px; margin-top: 98px}
+.u-section-1 .u-text-1 {width: auto; margin-top: 31px}
+.u-section-1 .u-btn-1 {margin-top: 19px}
+.u-section-1 .u-social-icons-1 {margin-top: 38px}
+.u-section-1 .u-video-1 {margin-top: 56px; margin-left: 98px} }
 
-@media (max-width: 767px){ .u-section-1 .u-sheet-1 {min-height: 729px}
-.u-section-1 .u-image-1 {width: 540px; height: 316px; margin-top: 59px}
-.u-section-1 .u-text-1 {margin-top: -28px; margin-left: 47px; margin-right: 47px}
-.u-section-1 .u-btn-1 {font-size: 1.25rem; margin-top: 11px; margin-left: 156px; padding: 23px 34px 23px 32px}
-.u-section-1 .u-social-icons-1 {margin-top: 0; margin-left: 212px}
-.u-section-1 .u-video-1 {height: 161px; width: 285px; margin-top: 35px} }
+@media (max-width: 767px){ .u-section-1 .u-sheet-1 {min-height: 973px}
+.u-section-1 .u-image-1 {width: 329px; height: 192px; margin-top: 123px}
+.u-section-1 .u-text-1 {margin-top: 67px; margin-left: 47px}
+.u-section-1 .u-btn-1 {font-size: 1.25rem; padding: 23px 34px 23px 32px}
+.u-section-1 .u-video-1 {margin-left: 15px} }
 
-@media (max-width: 575px){ .u-section-1 .u-sheet-1 {min-height: 459px}
-.u-section-1 .u-image-1 {height: 199px; margin-top: 57px; margin-right: initial; margin-left: initial; width: auto}
-.u-section-1 .u-text-1 {margin-top: 10px; margin-left: 0; margin-right: 0}
-.u-section-1 .u-btn-1 {margin-top: 0; margin-left: auto; padding-right: 77px; padding-bottom: 24px; padding-left: 76px}
-.u-section-1 .u-social-icons-1 {margin-top: 25px; margin-left: auto}
-.u-section-1 .u-video-1 {height: 174px; width: 303px; margin-top: 25px; margin-bottom: 57px} }
+@media (max-width: 575px){ .u-section-1 .u-sheet-1 {min-height: 926px}
+.u-section-1 .u-text-1 {margin-left: 29px}
+.u-section-1 .u-btn-1 {padding: 7px 10px 8px 8px}
+.u-section-1 .u-video-1 {height: 199px; margin-top: 82px; margin-right: initial; margin-left: initial; width: auto} }
