@@ -212,11 +212,27 @@
 }
 
 @media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    padding: var(--space-xl);
+  }
+
+  .cta-box {
+    padding: var(--space-xl);
+  }
+
   .cta-actions {
     flex-direction: column;
   }
 
   .cta-actions .btn {
     width: 100%;
+  }
+
+  .why-number {
+    font-size: 2.5rem;
   }
 }

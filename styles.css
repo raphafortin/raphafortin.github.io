@@ -195,11 +195,12 @@ img.logo {
 .hero {
   position: relative;
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: var(--space-3xl) var(--space-xl);
+  padding: 6rem var(--space-xl) 7rem;
   overflow: hidden;
 }
 
@@ -337,10 +338,8 @@ img.logo {
 }
 
 .hero-scroll {
-  position: absolute;
-  bottom: var(--space-2xl);
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: auto;
+  padding-top: var(--space-xl);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -673,6 +672,47 @@ img.logo {
   
   .btn {
     width: 100%;
+  }
+
+  .games-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-game-logo {
+    max-width: 70vw;
+  }
+
+  .hero-tagline {
+    font-size: 1rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: var(--space-md);
+  }
+
+  .studio-stats {
+    gap: var(--space-xl);
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-height: 600px) {
+  .hero {
+    min-height: auto;
+    padding: 5rem var(--space-xl) 3rem;
+  }
+
+  .hero-scroll {
+    display: none;
   }
 }
 

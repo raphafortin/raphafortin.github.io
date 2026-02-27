@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollReveal();
   initMobileMenu();
   initSmoothScroll();
+  initEmailLinks();
 });
 
 function initHeader() {
@@ -86,6 +87,21 @@ function initMobileMenu() {
       navLinks.classList.remove('open');
       toggle.classList.remove('active');
       document.body.classList.remove('menu-open');
+    });
+  });
+}
+
+function initEmailLinks() {
+  document.querySelectorAll('.email-link').forEach((link) => {
+    const u = link.getAttribute('data-u');
+    const d = link.getAttribute('data-d');
+    if (!u || !d)
+    {
+      return;
+    }
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.location.href = 'mail' + 'to:' + u + '@' + d;
     });
   });
 }
