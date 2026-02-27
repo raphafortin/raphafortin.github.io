@@ -65,6 +65,7 @@
 }
 
 .game-hero .hero-game-logo {
+  display: block;
   max-width: clamp(240px, 45vw, 440px);
   height: auto;
   margin-bottom: var(--space-md);
