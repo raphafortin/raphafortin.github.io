@@ -282,7 +282,7 @@ img.logo {
 .hero-game-logo {
   max-width: clamp(280px, 50vw, 500px);
   height: auto;
-  margin-bottom: var(--space-lg);
+  margin: 0 auto var(--space-lg);
   filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.5));
 }
 
